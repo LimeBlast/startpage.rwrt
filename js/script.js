@@ -36,19 +36,19 @@
 \*==========*/
 var settings = {
 	"navigation": {
-		"newWindow": true
+		"newWindow": false
 	},
 	
 	"search": {
 		"engines": [
-			["http://www.google.com/search", "q", "Google", "sg"],
-			["http://www.google.com/images", "q", "Google Images", "si"],
-			["http://search.yahoo.com/search", "p", "Yahoo", "sy"],
-			["http://wikipedia.org/w/index.php", "w", "Wikipedia", "sw"],
-			["http://www.dict.cc", "s", "dict.cc", "sd"],
-			["http://dict.leo.org", "search", "leo", "sl"],
-			["http://www.flickr.com/search", "q", "flickr", "sf"],
-			["http://browse.deviantart.com/", "q", "deviantArt", "sa"]
+			// ["http://www.google.com/search", "q", "Google", "sg"],
+			// ["http://www.google.com/images", "q", "Google Images", "si"],
+			// ["http://search.yahoo.com/search", "p", "Yahoo", "sy"],
+			// ["http://wikipedia.org/w/index.php", "w", "Wikipedia", "sw"],
+			// ["http://www.dict.cc", "s", "dict.cc", "sd"],
+			// ["http://dict.leo.org", "search", "leo", "sl"],
+			// ["http://www.flickr.com/search", "q", "flickr", "sf"],
+			// ["http://browse.deviantart.com/", "q", "deviantArt", "sa"]
 		],
 		"focusSearch": false
 	},
@@ -58,7 +58,7 @@ var settings = {
 	},
 
 	"animation": {
-		"hideLinks": true
+		"hideLinks": false
 	},
 
 	"icons": {
